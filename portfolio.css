@@ -1,0 +1,209 @@
+body{
+    background-image: url(assets/images/dust_scratches.png);
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: white;
+    max-width: 100%;
+    margin-left: 0;
+   margin-top: 0;
+   height: 60px;
+}
+
+h1{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: white;
+    font-size: 25px;
+    margin-top: 15px;
+    background-color: #4aaaa5;
+    width: 250px;
+    text-align: center;
+    height:50px;
+    margin-left: 105px;
+    padding-top: 10px;
+}
+
+
+
+ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    right: 100;
+    position:absolute;
+    top:30;
+        
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+    padding: 10px;
+ }
+
+
+li{
+    
+        display:inline;
+        border-top-stylestyle:hidden;
+        border-left-style:hidden;
+        border-bottom-style:hidden;
+        border-right-style:solid;
+        border-width: 0.3px;
+        border-color:lightgray;
+        
+        
+    
+    }
+
+
+
+.content{
+    max-width:960px;
+    margin: 0 auto;
+    border-style: solid;
+    border-color: lightgray;
+    border-width:0.5px;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: white; 
+    color: #777777;
+    font-style:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    position:relative;
+    
+}
+
+h2{
+    font-family:'Georgia', Times, Times New Roman, serif;
+    color:#4aaaa5;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: solid;
+    border-color: lightgray; 
+    font-size: 20px; 
+    padding:10px;
+}
+
+.flex-container{
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+img{
+    margin:auto;
+    max-width: 300px;
+    padding: 20px;
+  
+}
+   
+   div{
+       overflow:hidden;
+   }  
+
+
+
+   
+   .text{
+    position:absolute;
+    background-color: #4aaaa5;
+    height:50px;
+    width: 300px;
+    top:210px;
+    left:40px;
+    text-align: center;
+    color: white;
+    
+    
+}
+
+.text1{
+    position:absolute;
+    background-color: #4aaaa5;
+    height:50px;
+    width: 300px;
+    top:210px;
+    left:40px;
+    text-align: center;
+    color: white;
+    
+}
+
+.img2{
+    position: relative;
+}
+
+.text1{
+    position:absolute;
+    background-color: #4aaaa5;
+    width:300px;
+    height:50px;
+    top:211px;
+    left: 380px;
+}
+
+.text2{
+    position:absolute;
+    background-color: #4aaaa5;
+    width:300px;
+    height:50px;
+    top: 400px;
+    left:40px;
+    text-align: center;
+    color: white;
+
+}
+
+.text3{
+    position:absolute;
+    background-color: #4aaaa5;
+    width:300px;
+    height:50px;
+    top: 400px;
+    left:380px;
+    text-align: center;
+    color: white;
+
+}
+
+.text4{
+    position:absolute;
+    background-color: #4aaaa5;
+    width:300px;
+    height:50px;
+    top: 590px;
+    left: 40px;
+    text-align: center;
+    color: white;
+
+}
+
+
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #777777;
+    color: white;
+    text-align: center;
+    border-top-style: solid;
+    border-top-color: #4aaaa5;
+    border-width:5px;
+    font-size: 10px;
+    height:50px;
+    padding
+}
+
+p3{
+    position:absolute;
+    bottom: 2px;
+    text-align: center;
+
+}
